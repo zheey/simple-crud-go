@@ -36,7 +36,7 @@ func Routers() {
 
 
 // Task 3: Write your code here
-func GetUsers(w http.ResponseWriter, r *http.Request) []*User {
+func GetUsers(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
     var users []User
